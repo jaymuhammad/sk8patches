@@ -1,15 +1,32 @@
 body {
-	background-image: url('http://wallpaperswide.com/download/skateboard_logos-wallpaper-1024x1024.jpg');
+	background-image: url('http://lolimy.com/full/wood-texture-wallpapers-wallpaper-wednesday-hongkiat-wood-texture-wallpaper-by-sebgonz.jpg'); 
+	
+  background-size: cover;
 }
 
 
+
+
+
+
+
 html { 
-  background: url('http://wallpapersdesk.net/wp-content/uploads/2015/07/3109_skateboarding.jpg') no-repeat center center fixed; 
+  background: url('http://i.picresize.com/images/2016/02/05/LA5TN.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+.main-image{
+	border: 10px solid rgba(255,255,255,.5);
+	margin-left: 40%;
+	
+	opacity: 0.8;
+
+}
+
+
 
 .main-header {
 	font-family: 'Bangers', cursive;
@@ -27,6 +44,13 @@ html {
 #header, #header2, #header3, #menu, #menu1 {
 	color: white;
 	font-size: 200%;
+	font-weight: bold;
+	font-family: 'Bangers', cursive;
+}
+.header4, h6 {
+	color: #32CD32;
+	text-shadow: 3px 3px black;
+	font-size: 250%;
 	font-weight: bold;
 	font-family: 'Bangers', cursive;
 }
@@ -49,6 +73,10 @@ h4{
 	color:   white;
 	text-shadow: 2px 2px #32CD32;
 }
+
+#cat-header1{
+	text-align: center;
+}
 h5{
 	font-family: 'Lato', sans-serif;
 	color: blue;
@@ -63,8 +91,9 @@ h5{
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 /* catalog page css */
-.main-image{
-	padding-left: 15%;
+.main-image1{
+	padding-left: 10%;
+
 }
 #cat-header{
 	padding-left: 30%;
